@@ -1,0 +1,89 @@
+
+/* 모든 margin 과 padding 기본값 0으로 */
+*{margin: 0; padding: 0;}
+/* @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap'); */
+
+body{
+    width:1100px;
+    /**/
+}
+
+/* header 시작 */
+header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Avenir Next",Avenir,Roboto,"Century Gothic", "Franklin Gothic Medium","Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+a:hover{color: #01a1dd;}
+
+.logo{
+    margin-left: 30px;
+}
+
+.nav a{
+    padding: 0 15px;
+}
+
+/* main 시작 */
+main{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+    margin-bottom: 30px;
+  }
+  .welcome{
+    /* 16px = 1em */
+    /* 대문자 M의 너비 기준(1em)으로 한후 비율값을 지정*/
+    font-size: 1em;
+    color:blueviolet;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 300px;
+    left: 45px;
+  }
+  a {
+    color: #555555;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hello{
+    font-size: 1em;
+    color: lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 300px;
+    left: 45px;
+  }
+
+/* footer 시작 */
+footer{
+    padding: 10px 50px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+i{
+    font-size: 20px;
+}
+
+@media(max-width:800px){
+
+    .nav-menu{
+       display: none;
+    }
+   }
+   
